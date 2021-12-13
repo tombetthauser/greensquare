@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>◻️ greensquare</title>
+</head>
+<style>
+  body {
+    width: 500px;
+    display: block;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 150px;
+    max-width: 90%;
+    cursor: default;
+  }
+  #green-square {
+    width: 245px;
+    height: 245px;
+    background-image: url("things/images/thumbnail.png");
+    background-size: cover;
+    font-size: 55px;
+    padding: 25px 25px;
+    box-sizing: border-box;
+    line-height: 50px;
+    margin: 0;
+  }
+  #green-square-text {
+    color: white;
+    font-size: 55px;
+    margin-top: 0;
+    cursor: default;
+  }
+  #green-square-text::selection {
+    background-color: #00000000;
+  }
+  a {
+    color: #009e2a;
+    cursor: pointer;
+  }
+  section {
+    margin-top: 20px;
+    padding-bottom: 40px;
+    color: #30a14e;
+    font-size: 16px;
+  }
+  section p {
+    margin-bottom: 0;
+  }
+  h3 {
+    font-weight: 100;
+  }
+  #section-images p { 
+    margin-top: -10px;
+  }
+  #section-images img {
+    filter: contrast(.5) sepia(1) hue-rotate(75.5deg) saturate(1) brightness(.8);
+    width: 500px;
+    margin-bottom: 25px;
+    position: relative;
+  }
+  .image-text {
+    color: white;
+    margin-top: -100px;
+    z-index: 2;
+    position: relative;
+  }
+  .image {
+    position: relative;
+    max-width: 100%;
+  }
+  ::selection {
+    /* background-color: #30a14e20; */
+    background-color: #00000000;
+  }
+  .trail { /* className for the trail elements */
+    position: absolute;
+    height: 10px; width: 10px;
+    border-radius: 0px;
+    border: 1px solid #009e2a30;
+  }
+</style>
+<body>
+  <section id="section-header">
+    <h1 id="green-square">
+      <p id="green-square-text">
+        green<br>square
+      </p>
+    </h1>
+  </section>
+
+  <section id="section-welcome">
+    <ul>
+      
+    </ul>
+    <p>
+      a proof of concept <a href="#bot-space">bot space</a> for <a href="#fnt">fungible artwork</a> 
+    </p>
+    <p>
+      specializing in collaborative projects by software developers who want to work with artists and artists who want to work with software developers</p>
+    <p>
+      located in the <a target="new" href="https://www.vergeart.com/">verge center for the arts</a> in sacramento, ca
+    </p>
+  </section>
+
+  <section id="section-images">
+    <img class="image" src="./things/images/building.jpg" alt="">
+    <img class="image" src="./things/images/space.jpg" alt="">
+  </section>
+
+  <section id="section-info">
+
+    <p id="fnt">> fungible artwork</p>
+    <p>
+      no physical shipping required<br>
+      reproducible on standard / reasonably accessible equipment<br>
+      free or pay what you want production files<br>
+      <a target="new" href="https://news.ycombinator.com/item?id=29166113">what's the opposite of an nft?...</a><br>
+      <a target="new" href="https://news.ycombinator.com/item?id=29412708">whats so bad about nfts?...</a>
+    </p>
+    
+  </section>
+
+  <section id="bot-space">
+
+    <p id="fnt">> bot space</p>
+    <p>
+      code written by people / decisions made by code<br>
+      <!-- automated / programed gallery decisions<br> -->
+      finding new artwork / collaborators<br>
+      positioning work / hanging installations<br>
+      promoting shows / artworks<br>
+      code open and free to alter / improve
+    </p>
+    <p>
+      <a target="new" href="https://github.com/tombetthauser/green-square">view code on github...</a><br>
+    </p>
+    
+  </section>
+
+  <section id="more">
+    <p>> more</p>
+    <p>
+        not a traditional gallery / not a business / not for profit<br>
+        finding new artists / collaborators on "recommend a friend" model<br>
+        always open to new friends dialogue arguments etc
+    </p><p>
+      <a href="https://discord.gg/5KDUrJvydB">discord community...</a>
+    </p>
+  </section>
+  <script src="./things/rats.js"></script>
+</body>
+</html>
