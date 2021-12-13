@@ -5,6 +5,9 @@
   <title>◻️ greensquare</title>
 </head>
 <style>
+  html {
+    cursor: pointer;
+  }
   body {
     width: 500px;
     display: block;
@@ -12,7 +15,6 @@
     padding-top: 3%;
     padding-bottom: 150px;
     max-width: 90%;
-    cursor: default;
   }
   #green-square {
     width: 245px;
@@ -29,7 +31,7 @@
     color: white;
     font-size: 55px;
     margin-top: 0;
-    cursor: default;
+    cursor: pointer;
   }
   #green-square-text::selection {
     background-color: #00000000;
@@ -68,16 +70,14 @@
   .image {
     position: relative;
     max-width: 100%;
+    z-index: 2;
   }
   ::selection {
     /* background-color: #30a14e20; */
     background-color: #00000000;
   }
-  .trail { /* className for the trail elements */
-    position: absolute;
-    height: 10px; width: 10px;
-    border-radius: 0px;
-    border: 1px solid #009e2a30;
+  .sparkle {
+    z-index: -2;
   }
 </style>
 <body>
@@ -94,10 +94,10 @@
       
     </ul>
     <p>
-      a proof of concept <a href="#bot-space">bot space</a> for <a href="#fnt">fungible artwork</a> 
+      proof of concept <a href="#bot-space">bot space</a> for <a href="#fnt">fungible non-tokens</a> 
     </p>
     <p>
-      specializing in collaborative projects by software developers who want to work with artists and artists who want to work with software developers</p>
+      collaborative projects by software developers who want to work with artists and artists who want to work with software developers</p>
     <p>
       located in the <a target="new" href="https://www.vergeart.com/">verge center for the arts</a> in sacramento, ca
     </p>
@@ -125,12 +125,13 @@
 
     <p id="fnt">> bot space</p>
     <p>
-      code written by people / decisions made by code<br>
+      decisions made by poorly written bot program<br>
+      <!-- code made by people / decisions made by code<br> -->
       <!-- automated / programed gallery decisions<br> -->
       finding new artwork / collaborators<br>
       positioning work / hanging installations<br>
       promoting shows / artworks<br>
-      code open and free to alter / improve
+      open source kinda
     </p>
     <p>
       <a target="new" href="https://github.com/tombetthauser/green-square">view code on github...</a><br>
@@ -143,7 +144,8 @@
     <p>
         not a traditional gallery / not a business / not for profit<br>
         finding new artists / collaborators on "recommend a friend" model<br>
-        always open to new friends dialogue arguments etc
+        always open to new friends dialogue arguments etc<br>
+        thank you somnath bhatt for cursor rats
     </p><p>
       <a href="https://discord.gg/5KDUrJvydB">discord community...</a>
     </p>

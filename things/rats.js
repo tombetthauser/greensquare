@@ -155,6 +155,7 @@ function set_width() {
 
 function createDiv(height, width) {
   var div = document.createElement("div");
+  div.className = "sparkle"
   div.style.position = "absolute";
   div.style.height = height + "px";
   div.style.width = width + "px";
