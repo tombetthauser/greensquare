@@ -27,14 +27,14 @@ window.onload = function () {
       var rats = createDiv(5, 5);
       rats.style.backgroundColor = "transparent";
       rats.style.visibility = "hidden";
-      var rlef = createDiv(1, 5);
-      var rdow = createDiv(5, 1);
+      var rlef = createDiv(5, 5);
+      // var rdow = createDiv(5, 1);
       rats.appendChild(rlef);
-      rats.appendChild(rdow);
-      rlef.style.top = "2px";
+      // rats.appendChild(rdow);
+      rlef.style.top = "0px";
       rlef.style.left = "0px";
-      rdow.style.top = "0px";
-      rdow.style.left = "2px";
+      // rdow.style.top = "0px";
+      // rdow.style.left = "2px";
       document.body.appendChild(star[i] = rats);
     }
     set_width();
@@ -160,6 +160,6 @@ function createDiv(height, width) {
   div.style.height = height + "px";
   div.style.width = width + "px";
   div.style.overflow = "hidden";
-  div.style.backgroundColor = colour;
+  div.style.backgroundColor = colour + `${Math.floor(Math.random() * 10)}` + `${Math.floor(Math.random() * 10)}`;
   return (div);
 }
