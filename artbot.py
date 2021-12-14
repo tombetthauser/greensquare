@@ -1,5 +1,7 @@
 from datetime import date
 
+import random
+
 class ArtBot:
   def __init__(self):
     self.creation_date = date.today()
@@ -52,9 +54,23 @@ class ArtBot:
         }
   """
 
-  def select_artists(self, artists_array):
-    # return array
-    pass
+  def select_artists(self, desired_artist_count, artists_list):
+    output_artists_list = []
+    remaining_artists_list = artists_list.copy()
+
+    while len(output_artists_list) < desired_artist_count:
+      random_list_index = random.randint(1, len(remaining_artists_list))
+      
+      list_split_a = remaining_artists_list[0:random_list_index]
+      list_split_b = remaining_artists_list[random_list_index:len(remaining_artists_list)]
+      
+      random_artist = list_split_a.pop()
+      output_artists_list.append(random_artist)
+      
+      remaining_artists_list = list_split_b + list_split_a
+
+    return output_artists_list
+
 
   def hang_show(self, artworks, walls, floor):
     # return array
@@ -66,4 +82,12 @@ class ArtBot:
 
 
 new_bot = ArtBot()
-new_bot.test()
+artists = [
+  {"name": "Tom", "visual_index": 2341},
+  {"name": "Jack", "visual_index": 2341},
+  {"name": "Lana", "visual_index": 2341},
+  {"name": "Rhine", "visual_index": 2341},
+  {"name": "Ella", "visual_index": 2341},
+  {"name": "Erin", "visual_index": 2211}
+]
+print([ele["name"] for ele in new_bot.select_artists(3, artists)])
