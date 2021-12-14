@@ -72,7 +72,7 @@ class ArtBot:
     return output_artists_list
 
 
-  def hang_show(self, artworks, walls, floor):
+  def hang_show(self, artworks, walls_list):
     # return array
     # return array
     pass
