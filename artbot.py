@@ -54,7 +54,11 @@ class ArtBot:
         }
   """
 
-  def select_artists(self, desired_artist_count, artists_list):
+  def find_new_artist(self, desired_artist_count):
+    # use webscraper looking for artists
+    pass
+
+  def select_artists_for_show(self, desired_artist_count, artists_list):
     output_artists_list = []
     remaining_artists_list = artists_list.copy()
 
@@ -90,4 +94,4 @@ artists = [
   {"name": "Ella", "visual_index": 2341},
   {"name": "Erin", "visual_index": 2211}
 ]
-print([ele["name"] for ele in new_bot.select_artists(3, artists)])
+print([ele["name"] for ele in new_bot.select_artists_for_show(3, artists)])

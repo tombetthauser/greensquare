@@ -1,11 +1,16 @@
 const hands = () => {
   const html = document.querySelector("html");
+
+  html.addEventListener("click", () => {
+    html.style.cursor = "grabbing";
+  })
   
   const hands = ["grab", "grabbing"];
   let currentHandIdx = 0;
   
   const newTimeoutSet = () => {
-    const numTimes = Math.floor(Math.random() * 12) + 3;
+    const numTimes = 3;
+    // const numTimes = Math.floor(Math.random() * 12) + 3;
     const timeInterval = Math.floor(Math.random() * 700) + 150;
     for (let i = 0; i < numTimes; i++) {
       setTimeout(() => {
