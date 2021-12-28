@@ -1,32 +1,27 @@
 # Green Square
 
-A small collaboration space for fungible art / music / writing etc made by software developers who want to work with artists and artists who want to work with software developers.
+a collaborative art space for software developers who want to work with artists and artists who want to work with software developers
 
-located in the 
-<a target="new" href="https://www.vergeart.com/">Verge Center for the Arts</a> / 
-<a target="new" href="https://duckduckgo.com/?t=ffab&q=625+S+Street+Sacramento+CA&ia=web&iaxm=maps">625 S Street Sacramento CA</a> 
-
-<a target="new" href="https://tombetthauser.github.io/greensquare/">check out the normal website</a>
+located in the <a target="new" href="https://www.vergeart.com/">verge center for the arts</a> in sacramento, ca
 
 ---
-
+      
 <img class="image" src="./things/images/building.jpg" alt="">
 <img class="image" src="./things/images/space.jpg" alt="">
 
-  <section id="section-info">
+---
 
-## fungible artworks
+## > more info
 
-no physical shipping required<br>
-reproducible on standard / reasonably accessible equipment<br>
-free or pay what you want production files<br>
-<a target="new" href="https://news.ycombinator.com/item?id=29166113">what's the opposite of an nft?...</a><br>
-<a target="new" href="https://news.ycombinator.com/item?id=29412708">whats wrong with nfts?...</a>
+not a gallery not a business not actually a green square
 
-## getting involved
+collaborating with developers and artists making non-traditional drawings zines 3D printable models web art digital
+videos audio files installations performances written works etc
+  
+---
 
-finding new work on a "recommend a friend" model
+## > current status
 
-forever open to suggestions new software engineer artist friends dialogue arguments on art tech shows the space etc
+developers who make art music writing etc please reach out! gathering work for first installation through january
 
-<a href="https://discord.gg/5KDUrJvydB">discord community</a>
+<a href="https://discord.gg/qGD8F56TTz">discord community</a>
