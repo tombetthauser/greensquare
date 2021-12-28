@@ -6,7 +6,8 @@
 </head>
 <style>
   html {
-    cursor: grab;
+    cursor: default;
+    /* cursor: grab; */
   }
   body {
     width: 500px;
@@ -19,8 +20,12 @@
   #green-square {
     width: 245px;
     height: 245px;
-    background-image: url("things/images/thumbnail.png");
-    background-size: cover;
+    /* background-image: url("things/images/thumbnail.png"); */
+    background-image: url("things/images/crayons.jpg");
+    /* background-image: url("https://cdn.substack.com/image/fetch/w_96,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9740ca4-0cf5-4ddf-91ec-a439aab7a4d2_952x952.png"); */
+    /* background-size: 117.5%; */
+    background-size: 100%;
+    background-position: center;
     font-size: 55px;
     padding: 25px 25px;
     box-sizing: border-box;
@@ -32,10 +37,12 @@
     font-size: 55px;
     margin-top: 0;
     font-weight: 100;
+    /* text-shadow: 5px 5px 0px #ffffff70,
+                 10px 10px 0px #ffffff30; */
   }
-  #green-square-text::selection {
+  /* #green-square-text::selection {
     background-color: #00000000;
-  }
+  } */
   a {
     color: #009e2a;
     /* cursor: pointer; */
@@ -72,10 +79,9 @@
     max-width: 100%;
     z-index: 2;
   }
-  ::selection {
-    /* background-color: #30a14e20; */
+  /* ::selection {
     background-color: #00000000;
-  }
+  } */
   .sparkle {
     z-index: -2;
   }
@@ -90,14 +96,8 @@
   </section>
 
   <section id="section-welcome">
-    <ul>
-      
-    </ul>
     <p>
-      not a gallery not a business not actually a green square
-    </p>
-    <p>
-      a collaborative space for software developers who want to work with artists and artists who want to work with software developers
+      a collaborative art space for software developers who want to work with artists and artists who want to work with software developers
     </p>
     <!-- <p>
       a collaborative space for <a href="#fnt">fungible non-token</a> art things
@@ -122,18 +122,33 @@
 
   <section id="section-info">
 
-    <p id="fnt">> currently looking for art stuff</p>
+    <p id="fnt">> more info</p>
     <p>
-      primarily for non-traditional / weird / confusing drawings, zines, 3D printable models, web art, digital
-      videos, audio files, written works, paintings, sculptures etc.
+      not a gallery not a business not actually a green square
+    </p>
+    <p>
+      collaborating with developers and artists making non-traditional drawings zines 3D printable models web art digital
+      videos audio files installations performances written works etc
+    </p>
+    <!-- <p>
+      <a href="https://discord.gg/5KDUrJvydB">discord community...</a>
+    </p> -->
+    
+  </section>
+  
+  <section id="section-status">
+
+    <p id="fnt">> current status</p>
+    <p>
+      gathering work for first show through january developers that make weird art music writing etc please reach out if interested
     </p>   
     <p>
-      works reproducible on standard equipment that do not require shipping preferred ie printable, 3D printable, videos, live webart, playable audio
+      <a href="https://discord.gg/5KDUrJvydB">discord community</a>
     </p>
     
   </section>
 
-  <section id="section-info">
+  <!-- <section id="section-info">
 
     <p id="fnt">> for developers</p>
     <p>
@@ -149,7 +164,7 @@
       if you're an artist interested in collaborating with a developer or learning about coding checkout the discord community<br>
     </p>
 
-  </section>
+  </section> -->
   
   <!-- <section id="section-info">
 
@@ -196,19 +211,17 @@
     
   </section> -->
 
-  <section id="more">
+  <!-- <section id="more">
     <p>> more things</p>
     <p>
       not a gallery not a business not for profit<br>
       not actually green not actually a square<br>
-      <!-- finding new artists collaborators on "recommend a friend" model<br> -->
-        <!-- always new friends dialogue arguments etc<br> -->
         thanks somnath bhatt for cursor rats<br>
     </p><p>
       <a href="https://discord.gg/5KDUrJvydB">discord community...</a>
     </p>
-  </section>
+  </section> -->
   <script src="./things/rats.js"></script>
-  <script src="./things/hands.js"></script>
+  <!-- <script src="./things/hands.js"></script> -->
 </body>
 </html>
