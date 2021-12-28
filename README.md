@@ -4,6 +4,8 @@ a collaborative art space for software developers who want to work with artists 
 
 located in the <a target="new" href="https://www.vergeart.com/">verge center for the arts</a> in sacramento, ca
 
+<a target="new" href="tombetthauser.github.io/greensquare/">project webpage</a>
+
 ---
       
 <img class="image" src="./things/images/building.jpg" alt="">
