@@ -1,10 +1,8 @@
 # Green Square
 
-a collaborative art space for software developers who want to work with artists and artists who want to work with software developers
+a collaborative space for software developers who make art and artists interested in collaborating with software developers
 
 located in the <a target="new" href="https://www.vergeart.com/">verge center for the arts</a> in sacramento, ca
-
-<a target="new" href="tombetthauser.github.io/greensquare/">project webpage</a>
 
 ---
       
@@ -19,6 +17,9 @@ not a gallery not a business not actually a green square
 
 collaborating with developers and artists making non-traditional drawings zines 3D printable models web art digital
 videos audio files installations performances written works etc
+
+<a target="new" href="tombetthauser.github.io/greensquare/">project webpage</a>
+
   
 ---
 
