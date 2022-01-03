@@ -1,6 +1,6 @@
 #! /bin/bash
 
-end=$((SECONDS+30))
+end=$((SECONDS+15))
 arr=(hello bootay erin sexy pants ohyeah sweet juicy yum nice hottness fire spicy extra)
 
 randArrayElement(){ arr=("${!1}"); say ${arr["$[RANDOM % ${#arr[@]}]"]}; }
