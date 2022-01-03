@@ -2,8 +2,8 @@
 
 while :
 do
-  bash ./script/up.sh
-  bash ./script/down.sh
+  bash ./scripts/up.sh
+  bash ./scripts/down.sh
   git pull --force
   sleep 3
 done
