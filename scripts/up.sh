@@ -21,6 +21,6 @@ open http://unknowablesymbols.com -a /Applications/Google\ Chrome.app/
 end=$((SECONDS+45))
 while [ $SECONDS -lt $end ]; do
 #  randArrayElement "arr[@]"
-#  sleep 1
+ sleep 1
  :
 done
